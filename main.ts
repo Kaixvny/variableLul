@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    turn("", 0)
+    turn("wefwefwe", 1)
 })
 function turn (dir: string, speed: number) {
     if (dir == "left") {
@@ -13,7 +13,7 @@ function turn (dir: string, speed: number) {
     }
 }
 input.onButtonPressed(Button.B, function () {
-    turn("", 0)
+    turn("abc", 1)
 })
 basic.forever(function () {
 	
