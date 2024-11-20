@@ -16,5 +16,11 @@ input.onButtonPressed(Button.B, function () {
     turn("abc", 1)
 })
 basic.forever(function () {
-	
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
 })
